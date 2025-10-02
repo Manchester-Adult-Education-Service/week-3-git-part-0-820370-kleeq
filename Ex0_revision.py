@@ -68,7 +68,9 @@ print(f"Hello {name}, How are you doing?")
 
 current_year = 2025
 age = input ("How old are you? ")
-print(f"Funny, you are {age} years old and it's {current_year}, LOL. ")
+print(f"Funny, you're {age} years old and it's {current_year}, LOL. ")
+drink = input("What is your faourite drink? ")
+print(f"Great choice {name}, when I was in {favourite_place}, I enjoyed a lot of {drink}" )
 
 # -------------------------------------------
 # Git Task: Submit your work!
@@ -105,10 +107,23 @@ print(f"Funny, you are {age} years old and it's {current_year}, LOL. ")
 #    Food: ...
 #    Colour: ...
 
+Name = "Maleek"
+Age = 25
+favFood = "Pizza"
+favColour = "Black"
+print(f"---Profile---\nName: {name}\nAge: {Age}\nFavourite Food: {favFood}\nFavourite Colour: {favColour}" )
+
+
+
 # Extension D (Bonus Maths):
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+
+age = input ("How old are you? ")
+
+
+
 
 # -------------------------------------------
 # Git Task: Submit your work!
